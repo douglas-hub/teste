@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+nav.bg-menu{
+    background-color: #3b5998 ;
+}
+h1.titulo-nome{
+   color:#ebebeb ; 
+   font-size: 30px;
+   font-family: 'Permanent Marker', cursive;
+   text-shadow: 4px 4px 4px black ;
+}
+span.titulo-nome2{
+   color:white ;
+   font-size: 33px;
+   font-family: 'Russo One', sans-serif;
+   text-shadow: 4px 4px 4px black ;
+}
+img.css-logo{
+    width: 120px;
+    height: 120px;
+}
+ul.lista{
+   text-shadow: 4px 4px 4px black ;
+   font-size:15px;
+   font-family: 'Arial', cursive;
+}
+img#lupa{
+    width: 20px;
+    height: 20px;
+}
+.linha{
+  border-right: 1px solid black ;
+}
+p{
+  text-align: justify;
+}
+
+

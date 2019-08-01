@@ -1,0 +1,49 @@
+      
+<div class="content-wrapper">
+
+  <section class="content">   
+            <h1>
+              Solicitações de Atendimento
+            </h1>
+            <ol class="breadcrumb">
+              <li><a href="/user"><i class="fa fa-dashboard"></i>Inicio</a></li>
+              <li class="active"><a href="/admin/users">Usuários</a></li>
+            </ol>
+
+    <div class="mt-5 mb-5">
+
+      <div class="box-body no-padding">
+
+              <table class="table table-striped">
+
+                <thead>
+                  <tr>
+                    <th style="width: 10px">Id atendimento</th>
+                    <th style="color:red;">Técnico</th>
+                    <th>Problema</th>
+                    <th>Data</th>
+                    <th>Status</th>
+                    <th>Id do Uusuario</th>
+                    <th style="width: 140px">&nbsp;</th>
+                  </tr>
+                </thead>
+
+                <tr>
+                    <td>{$user.idatend}</td>
+                    <td>{$user.destecnico}</td>
+                    <td>{$user.desprob}</td>
+                    <td>{$user.desdate}</td>
+                    <td>{$user.desstatus}</td/>
+                    <td>{$user.fiduser}</td>
+                </tr>
+
+
+
+              </table> 
+      </div>
+
+    </div>
+
+  </section>
+
+</div>              
